@@ -1,0 +1,60 @@
+.book-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #e3f2fd, #fce4ec);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.book-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 480px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.book-container h2 {
+  margin-bottom: 24px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+.book-container input,
+.book-container select,
+.book-container textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.book-container textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.book-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #388e3c;
+}
